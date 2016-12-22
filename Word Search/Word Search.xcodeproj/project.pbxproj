@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4111E8371DC1DBEF00F98F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4111E8361DC1DBEF00F98F3E /* Assets.xcassets */; };
+		4115B5281E0BDBDD00B91FFD /* WordList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4115B5271E0BDBDD00B91FFD /* WordList.txt */; };
 		412B8B061DC169E700DF97B2 /* OldWordAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B8B051DC169E700DF97B2 /* OldWordAlgorithm.swift */; };
 		412B8B081DC16CC000DF97B2 /* MorphController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B8B071DC16CC000DF97B2 /* MorphController.swift */; };
 		4163E6E61DC077EC00A02EA0 /* RhymeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4163E6E51DC077EC00A02EA0 /* RhymeController.swift */; };
@@ -17,7 +18,6 @@
 		418417071DC0697C00BE1985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418417051DC0697C00BE1985 /* LaunchScreen.storyboard */; };
 		418417121DC0697C00BE1985 /* Word_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418417111DC0697C00BE1985 /* Word_SearchTests.swift */; };
 		4184171D1DC0697C00BE1985 /* Word_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184171C1DC0697C00BE1985 /* Word_SearchUITests.swift */; };
-		4184172B1DC06C7000BE1985 /* WordList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4184172A1DC06C7000BE1985 /* WordList.txt */; };
 		41B9AC2C1DC08A780060B752 /* ScrabbleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B9AC2B1DC08A780060B752 /* ScrabbleController.swift */; };
 		41D875C91DC09EA200F989E0 /* WordSearchFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D875C81DC09EA200F989E0 /* WordSearchFunctions.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		4111E8361DC1DBEF00F98F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4115B5271E0BDBDD00B91FFD /* WordList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WordList.txt; sourceTree = "<group>"; };
 		412B8B051DC169E700DF97B2 /* OldWordAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OldWordAlgorithm.swift; sourceTree = "<group>"; };
 		412B8B071DC16CC000DF97B2 /* MorphController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorphController.swift; sourceTree = "<group>"; };
 		4163E6E51DC077EC00A02EA0 /* RhymeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RhymeController.swift; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		418417181DC0697C00BE1985 /* Word SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4184171C1DC0697C00BE1985 /* Word_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_SearchUITests.swift; sourceTree = "<group>"; };
 		4184171E1DC0697C00BE1985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4184172A1DC06C7000BE1985 /* WordList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WordList.txt; path = ../../../Fall2016/COMPE361/Assignment2/Assignment2/WordList.txt; sourceTree = "<group>"; };
 		41B9AC2B1DC08A780060B752 /* ScrabbleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrabbleController.swift; sourceTree = "<group>"; };
 		41D875C81DC09EA200F989E0 /* WordSearchFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordSearchFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,7 +118,7 @@
 				412B8B071DC16CC000DF97B2 /* MorphController.swift */,
 				418417001DC0697C00BE1985 /* Main.storyboard */,
 				4111E8361DC1DBEF00F98F3E /* Assets.xcassets */,
-				4184172A1DC06C7000BE1985 /* WordList.txt */,
+				4115B5271E0BDBDD00B91FFD /* WordList.txt */,
 				418417051DC0697C00BE1985 /* LaunchScreen.storyboard */,
 				418417081DC0697C00BE1985 /* Info.plist */,
 			);
@@ -253,8 +253,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4115B5281E0BDBDD00B91FFD /* WordList.txt in Resources */,
 				418417071DC0697C00BE1985 /* LaunchScreen.storyboard in Resources */,
-				4184172B1DC06C7000BE1985 /* WordList.txt in Resources */,
 				4111E8371DC1DBEF00F98F3E /* Assets.xcassets in Resources */,
 				418417021DC0697C00BE1985 /* Main.storyboard in Resources */,
 			);

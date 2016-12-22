@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		419511991E0BDF01009624AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419511981E0BDF01009624AA /* AppDelegate.swift */; };
+		4195119B1E0BDF01009624AA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4195119A1E0BDF01009624AA /* FirstViewController.swift */; };
+		4195119D1E0BDF01009624AA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4195119C1E0BDF01009624AA /* SecondViewController.swift */; };
+		419511A01E0BDF01009624AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4195119E1E0BDF01009624AA /* Main.storyboard */; };
+		419511A21E0BDF01009624AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419511A11E0BDF01009624AA /* Assets.xcassets */; };
+		419511A51E0BDF01009624AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419511A31E0BDF01009624AA /* LaunchScreen.storyboard */; };
+		419511B01E0BDF01009624AA /* Passion_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419511AF1E0BDF01009624AA /* Passion_PlannerTests.swift */; };
+		419511BB1E0BDF01009624AA /* Passion_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419511BA1E0BDF01009624AA /* Passion_PlannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		419511AC1E0BDF01009624AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4195118D1E0BDF01009624AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 419511941E0BDF01009624AA;
+			remoteInfo = "Passion Planner";
+		};
+		419511B71E0BDF01009624AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4195118D1E0BDF01009624AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 419511941E0BDF01009624AA;
+			remoteInfo = "Passion Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		419511951E0BDF01009624AA /* Passion Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passion Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419511981E0BDF01009624AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4195119A1E0BDF01009624AA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4195119C1E0BDF01009624AA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4195119F1E0BDF01009624AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		419511A11E0BDF01009624AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		419511A41E0BDF01009624AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		419511A61E0BDF01009624AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419511AB1E0BDF01009624AA /* Passion PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passion PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419511AF1E0BDF01009624AA /* Passion_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passion_PlannerTests.swift; sourceTree = "<group>"; };
+		419511B11E0BDF01009624AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419511B61E0BDF01009624AA /* Passion PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passion PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419511BA1E0BDF01009624AA /* Passion_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passion_PlannerUITests.swift; sourceTree = "<group>"; };
+		419511BC1E0BDF01009624AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		419511921E0BDF01009624AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419511A81E0BDF01009624AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419511B31E0BDF01009624AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4195118C1E0BDF01009624AA = {
+			isa = PBXGroup;
+			children = (
+				419511971E0BDF01009624AA /* Passion Planner */,
+				419511AE1E0BDF01009624AA /* Passion PlannerTests */,
+				419511B91E0BDF01009624AA /* Passion PlannerUITests */,
+				419511961E0BDF01009624AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		419511961E0BDF01009624AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				419511951E0BDF01009624AA /* Passion Planner.app */,
+				419511AB1E0BDF01009624AA /* Passion PlannerTests.xctest */,
+				419511B61E0BDF01009624AA /* Passion PlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		419511971E0BDF01009624AA /* Passion Planner */ = {
+			isa = PBXGroup;
+			children = (
+				419511981E0BDF01009624AA /* AppDelegate.swift */,
+				4195119A1E0BDF01009624AA /* FirstViewController.swift */,
+				4195119C1E0BDF01009624AA /* SecondViewController.swift */,
+				4195119E1E0BDF01009624AA /* Main.storyboard */,
+				419511A11E0BDF01009624AA /* Assets.xcassets */,
+				419511A31E0BDF01009624AA /* LaunchScreen.storyboard */,
+				419511A61E0BDF01009624AA /* Info.plist */,
+			);
+			path = "Passion Planner";
+			sourceTree = "<group>";
+		};
+		419511AE1E0BDF01009624AA /* Passion PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				419511AF1E0BDF01009624AA /* Passion_PlannerTests.swift */,
+				419511B11E0BDF01009624AA /* Info.plist */,
+			);
+			path = "Passion PlannerTests";
+			sourceTree = "<group>";
+		};
+		419511B91E0BDF01009624AA /* Passion PlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				419511BA1E0BDF01009624AA /* Passion_PlannerUITests.swift */,
+				419511BC1E0BDF01009624AA /* Info.plist */,
+			);
+			path = "Passion PlannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		419511941E0BDF01009624AA /* Passion Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419511BF1E0BDF01009624AA /* Build configuration list for PBXNativeTarget "Passion Planner" */;
+			buildPhases = (
+				419511911E0BDF01009624AA /* Sources */,
+				419511921E0BDF01009624AA /* Frameworks */,
+				419511931E0BDF01009624AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Passion Planner";
+			productName = "Passion Planner";
+			productReference = 419511951E0BDF01009624AA /* Passion Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		419511AA1E0BDF01009624AA /* Passion PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419511C21E0BDF01009624AA /* Build configuration list for PBXNativeTarget "Passion PlannerTests" */;
+			buildPhases = (
+				419511A71E0BDF01009624AA /* Sources */,
+				419511A81E0BDF01009624AA /* Frameworks */,
+				419511A91E0BDF01009624AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				419511AD1E0BDF01009624AA /* PBXTargetDependency */,
+			);
+			name = "Passion PlannerTests";
+			productName = "Passion PlannerTests";
+			productReference = 419511AB1E0BDF01009624AA /* Passion PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		419511B51E0BDF01009624AA /* Passion PlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419511C51E0BDF01009624AA /* Build configuration list for PBXNativeTarget "Passion PlannerUITests" */;
+			buildPhases = (
+				419511B21E0BDF01009624AA /* Sources */,
+				419511B31E0BDF01009624AA /* Frameworks */,
+				419511B41E0BDF01009624AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				419511B81E0BDF01009624AA /* PBXTargetDependency */,
+			);
+			name = "Passion PlannerUITests";
+			productName = "Passion PlannerUITests";
+			productReference = 419511B61E0BDF01009624AA /* Passion PlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4195118D1E0BDF01009624AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BryeIsa;
+				TargetAttributes = {
+					419511941E0BDF01009624AA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H4ECXMQC9V;
+						ProvisioningStyle = Automatic;
+					};
+					419511AA1E0BDF01009624AA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H4ECXMQC9V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 419511941E0BDF01009624AA;
+					};
+					419511B51E0BDF01009624AA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H4ECXMQC9V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 419511941E0BDF01009624AA;
+					};
+				};
+			};
+			buildConfigurationList = 419511901E0BDF01009624AA /* Build configuration list for PBXProject "Passion Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4195118C1E0BDF01009624AA;
+			productRefGroup = 419511961E0BDF01009624AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				419511941E0BDF01009624AA /* Passion Planner */,
+				419511AA1E0BDF01009624AA /* Passion PlannerTests */,
+				419511B51E0BDF01009624AA /* Passion PlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		419511931E0BDF01009624AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419511A51E0BDF01009624AA /* LaunchScreen.storyboard in Resources */,
+				419511A21E0BDF01009624AA /* Assets.xcassets in Resources */,
+				419511A01E0BDF01009624AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419511A91E0BDF01009624AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419511B41E0BDF01009624AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		419511911E0BDF01009624AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4195119D1E0BDF01009624AA /* SecondViewController.swift in Sources */,
+				419511991E0BDF01009624AA /* AppDelegate.swift in Sources */,
+				4195119B1E0BDF01009624AA /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419511A71E0BDF01009624AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419511B01E0BDF01009624AA /* Passion_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419511B21E0BDF01009624AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419511BB1E0BDF01009624AA /* Passion_PlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		419511AD1E0BDF01009624AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 419511941E0BDF01009624AA /* Passion Planner */;
+			targetProxy = 419511AC1E0BDF01009624AA /* PBXContainerItemProxy */;
+		};
+		419511B81E0BDF01009624AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 419511941E0BDF01009624AA /* Passion Planner */;
+			targetProxy = 419511B71E0BDF01009624AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4195119E1E0BDF01009624AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4195119F1E0BDF01009624AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		419511A31E0BDF01009624AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419511A41E0BDF01009624AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		419511BD1E0BDF01009624AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		419511BE1E0BDF01009624AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		419511C01E0BDF01009624AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4ECXMQC9V;
+				INFOPLIST_FILE = "Passion Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.bryevo.Passion-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		419511C11E0BDF01009624AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4ECXMQC9V;
+				INFOPLIST_FILE = "Passion Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.bryevo.Passion-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		419511C31E0BDF01009624AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H4ECXMQC9V;
+				INFOPLIST_FILE = "Passion PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.bryevo.Passion-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passion Planner.app/Passion Planner";
+			};
+			name = Debug;
+		};
+		419511C41E0BDF01009624AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H4ECXMQC9V;
+				INFOPLIST_FILE = "Passion PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.bryevo.Passion-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passion Planner.app/Passion Planner";
+			};
+			name = Release;
+		};
+		419511C61E0BDF01009624AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H4ECXMQC9V;
+				INFOPLIST_FILE = "Passion PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.bryevo.Passion-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Passion Planner";
+			};
+			name = Debug;
+		};
+		419511C71E0BDF01009624AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H4ECXMQC9V;
+				INFOPLIST_FILE = "Passion PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.bryevo.Passion-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Passion Planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		419511901E0BDF01009624AA /* Build configuration list for PBXProject "Passion Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419511BD1E0BDF01009624AA /* Debug */,
+				419511BE1E0BDF01009624AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419511BF1E0BDF01009624AA /* Build configuration list for PBXNativeTarget "Passion Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419511C01E0BDF01009624AA /* Debug */,
+				419511C11E0BDF01009624AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		419511C21E0BDF01009624AA /* Build configuration list for PBXNativeTarget "Passion PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419511C31E0BDF01009624AA /* Debug */,
+				419511C41E0BDF01009624AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		419511C51E0BDF01009624AA /* Build configuration list for PBXNativeTarget "Passion PlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419511C61E0BDF01009624AA /* Debug */,
+				419511C71E0BDF01009624AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4195118D1E0BDF01009624AA /* Project object */;
+}

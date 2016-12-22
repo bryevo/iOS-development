@@ -37,7 +37,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91d-8f-nW4">
-                                <rect key="frame" x="131" y="304" width="113" height="59"/>
+                                <rect key="frame" x="105" y="303" width="165" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Find"/>
@@ -55,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2668" y="-1242"/>
+            <point key="canvasLocation" x="-2668" y="-1242.7286356821589"/>
         </scene>
         <!--Rhyme-->
         <scene sceneID="X7B-pU-ed1">
@@ -103,7 +103,7 @@
                                             <action selector="findRhyme:" destination="3ZT-QA-Izq" eventType="touchUpInside" id="DFI-M4-sup"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Suh" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QCy-0u-JAz">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a word..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QCy-0u-JAz">
                                         <rect key="frame" x="16" y="160" width="273" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
@@ -173,7 +173,7 @@
                                             <action selector="findScrabble:" destination="uSZ-Yb-vEd" eventType="touchUpInside" id="kpi-xX-zWs"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Suh" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5E0-VP-K3y">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a word..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5E0-VP-K3y">
                                         <rect key="frame" x="16" y="155" width="273" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
